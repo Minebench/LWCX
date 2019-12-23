@@ -315,6 +315,7 @@ public class ProtectionFinder {
                     searched = true;
                 } else {
                     // Removing orrupted protection
+                    lwc.log("Removing corrupted protection: " + protection);
                     protection.remove();
                 }
             }
